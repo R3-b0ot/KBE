@@ -30,8 +30,8 @@ list($id,$question,$opt1,$opt2,$opt3,$opt4,$ans) = DB::queryFirstList("SELECT * 
   <div class="col-md-4">
     <button id="result" class='btn'>result</button>
     <button id="effect" class='btn'>show option</button>
-	<button id="pause" class='btn'>pause</button>
-	<button id="resume" class='btn'>resume</button>
+	<button id="pause" class='btn'>Lifeline Pause</button>
+	<button id="resume" class='btn'>Lifeline Resume</button>
   </div>
  <div class="col-md-4" style="padding-top:350px">
    <div class="clock" style="margin:2em;"></div>
