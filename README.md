@@ -8,8 +8,8 @@
 
 # Installation
 ---------------
-- first step you need xammp or wamp already need to install on your pc.
-- after that copy directory in htdocs.
+- first step you need bitnami wamp stack installed on your pc.
+- after that copy directory in apache2\htdocs\ .
 - change the intial connnection block in includes/db.php
 ```php
   public static $dbName = 'KBH';
