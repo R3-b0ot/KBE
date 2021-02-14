@@ -4,7 +4,7 @@
 ---------------
 - i made this for my Rotaract event Kaun Banega Entrepreneur KBE for model !
   first time it's seems totally impossible to make this kind of system !
-  that can create env like real kbc show but i try to make and got succesed and made this software in week!
+  that can create env like real kbc show but i try to make and made this software in week!
 
 # Installation
 ---------------
