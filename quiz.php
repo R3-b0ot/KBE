@@ -38,7 +38,8 @@ list($id,$question,$opt1,$opt2,$opt3,$opt4,$ans) = DB::queryFirstList("SELECT * 
 </div>
 
   <div class="col-md-4" >
-    <table summary="SCORE CHART" class="tg" style="margin-left:15em;margin-top:3em;">
+    <table class="tg" style="margin-left:15em;margin-top:3em;">
+    <caption>Score Chart</caption>
     <col>
     <th class="tg-bzci"> SCORE </th> 
     <tr>
