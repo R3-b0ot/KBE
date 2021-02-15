@@ -41,15 +41,9 @@ pre {
     border-right: solid #C0C8CF 2px;
     font-weight: bold;
 }
-
-
-.nav li.active {
-}
-
 .nav li ul {
     display: none;
 }
-
 .nav li.active ul {
     display: block;
 }
