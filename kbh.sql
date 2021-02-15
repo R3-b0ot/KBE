@@ -75,7 +75,7 @@ INSERT INTO `question` (`id`, `question`, `opt1`, `opt2`, `opt3`, `opt4`, `ans`)
 
 INSERT INTO `question` (`id`, `question`, `opt1`, `opt2`, `opt3`, `opt4`, `ans`) VALUES 
 ('AH13', 'Which one is not the barriers of Entrepreneurship:', 'Lack of Technical Skills', 'Political instability', 'Technical Knowledge', 'Time Pressure and Distractions', 'C'), 
-('AH14', 'Identify the famous entrepreneur by his quote.\r\n“Success is a lousy teacher. It seduces smart people into thinking they can\'t lose.”', 'Bill gates', 'Elon Musk', 'Steve Jobs', 'None of the Above', 'A'), 
+('AH14', 'Identify the famous entrepreneur by his quote. Success is a lousy teacher. It seduces smart people into thinking they can''t lose.', 'Bill gates', 'Elon Musk', 'Steve Jobs', 'None of the Above', 'A'), 
 ('AH15', 'Which company owns Natraj and Apsara.', 'Asian pencil Private Limited', 'Hindustan pencil Private Limited', 'Galaxy pencil manufacturing company', 'DOMOS India', 'B'), 
 ('AH16', 'The functions of Entrepreneurship includes', 'Establishing the enterprise', 'Project planning', 'Initiation and risk taking', 'All of the above.', 'D'), 
 ('AH17', 'The factors of development of Entrepreneurship is based on', 'Development of Entrepreneurial knowledge', 'Economic and Business Environment', 'Role of Banks and Financial Institutions', 'All of the above', 'D'), 
@@ -83,6 +83,18 @@ INSERT INTO `question` (`id`, `question`, `opt1`, `opt2`, `opt3`, `opt4`, `ans`)
 ('AH19', 'Ethical decisions include', 'Provide the customer with valid data about the product and service', 'Enable the customer to make a free and informed choice', 'Generate customer commitment to the product and the organization that provides it', 'All of the above', 'D'), 
 ('AH20', 'Identify the entrepreneur.', 'Ritesh Agrawal', 'Vijay Shekhar Sharma', 'Bhavish Agrawal', 'Deepinder Goyal', 'B'), 
 ('AH21', 'Identify the audio of the entrepreneur.', 'Bill Gates', 'Walt Disney', 'Steve Jobs', 'Charles Merill', 'C');
+
+INSERT INTO `question` (`id`, `question`, `opt1`, `opt2`, `opt3`, `opt4`, `ans`) VALUES 
+('AH22', 'What actions by an entrepreneur is most likely to contribute to creative destruction.', 'Development of a new product', 'Take-over of a competitor', 'Issuing shares', 'Development of a new product', 'D'), 
+('AH23', ' The resistance of employees in an organization against flexibility, growth, and diversification can be overcome by developing _________', 'Entrepreneurship', 'Managerial domain', 'Intrapreneurship', 'Administrative domain', 'C'), 
+('AH24', '______________ shows the process of creating something new', 'Innovation', 'Business model', 'Modeling', 'Creative flexibility', 'A'), 
+('AH25', 'The goals should be ____________ for the success of business plan.', 'Generalized', 'Specific', 'Limitless', 'Imaginary', 'B'), 
+('AH26', '_________________ gives suggestions for new product and also help to market new products.', 'Existing products and services', 'Consumers', 'Federal government', 'Distribution channels', 'D'), 
+('AH27', 'External links may provide incentives to ______________.', 'Attend business exhibitions', 'Introduce new working practices', 'Introduce improvements to products', 'Raise finance', 'C'), 
+('AH28', 'LMM stands for:', 'Local Marble Market', 'Locally Manufactured Marble', 'Locally Manufactured Machinery', 'Local Meat Market', 'A'), 
+('AH29', '_____________________ is used by entrepreneurs to acquire experience in an international market before making a major commitment.', 'Minority interest', 'Joint venture', 'Merger', 'Majority interest', 'A'), 
+('AH30', 'Firms located on science parks are ____________ as compared to those located off science parks.', 'Less innovative', 'More innovative', 'No more or less innovative', 'More growth-orientated', 'C'), 
+('AH31', 'GATT is established in 1947, under____________.', 'German leadership', 'French leadership', 'U.K. leadership', 'U.S. leadership', 'D');
 --
 -- Indexes for dumped tables
 --
