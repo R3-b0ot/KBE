@@ -202,7 +202,7 @@
   position: absolute;
   top: -1.5em;
   right: -86px;
-  color: black;
+  color: rgb(255, 255, 255);
   text-shadow: none; }
 
 .flip-clock-divider.minutes .flip-clock-label {

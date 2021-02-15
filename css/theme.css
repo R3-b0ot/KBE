@@ -95,7 +95,7 @@ table {
 }
 
 .tg  {
-  border-collapse:collapse;
+  border-color:#9999FF;
   border-spacing:0;}
 
 .tg td{
@@ -122,6 +122,7 @@ table {
   border-width:0px;
   overflow:hidden;
   word-break:normal;}
+
 .tg .tg-bzci{
   font-size:20px;
   text-align:center;
