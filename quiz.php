@@ -28,18 +28,19 @@ list($id,$question,$opt1,$opt2,$opt3,$opt4,$ans) = DB::queryFirstList("SELECT * 
 
 <div class="container">
   <div class="col-md-4">
-    <button id="result" class='btn'>result</button>
-    <button id="effect" class='btn'>show option</button>
-	<button id="pause" class='btn'>Lifeline Pause</button>
-	<button id="resume" class='btn'>Lifeline Resume</button>
+    <button id="result" class='btn'>Lock</button>
+    <button id="effect" class='btn'>Show Option</button>
+	<button id="pause" class='btn'>Pause</button>
+	<button id="resume" class='btn'>Resume</button>
   </div>
  <div class="col-md-4" style="padding-top:350px">
    <div class="clock" style="margin:2em;"></div>
 </div>
 
   <div class="col-md-4" >
-    <table class="tg" style="margin-left:15em;margin-top:3em;">
-    <col width="150px">
+    <table summary="SCORE CHART" class="tg" style="margin-left:15em;margin-top:3em;">
+    <col>
+    <th class="tg-bzci"> SCORE </th> 
     <tr>
       <td id="13" class="tg-bzci">2000</th>
     </tr>
