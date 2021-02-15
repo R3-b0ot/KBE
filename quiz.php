@@ -1,7 +1,3 @@
-
-
-
-
 <?php
 require_once 'includes/db.php';
 list($n_id, $no) = DB::queryFirstList("SELECT nextid, queno FROM nextque");
@@ -39,7 +35,7 @@ list($id,$question,$opt1,$opt2,$opt3,$opt4,$ans) = DB::queryFirstList("SELECT * 
 
   <div class="col-md-4" >
     <table class="tg" style="margin-left:15em;margin-top:3em;">
-    <caption>Score Chart</caption>
+    <caption hidden>Score Chart</caption>
     <col>
     <th class="tg-bzci"> SCORE </th> 
     <tr>
