@@ -13,6 +13,15 @@ body {
   font-weight: bold;
 }
 
+.body::-webkit-scrollbar {
+  display: none; /* Chrome */
+}
+
+.body {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+
 .theme-dropdown .dropdown-menu {
   position: static;
   display: block;
