@@ -3,8 +3,9 @@
 # Introduction
 ---------------
 - i made this for my Rotaract event Kaun Banega Entrepreneur KBE for model !
-  first time it's seems totally impossible to make this kind of system !
-  that can create env like real kbc show but i try to make and made this software in week!
+  Initially it seemed totally impossible to make this kind of system !
+  that can create env like real kbc show but i tried and made this software over a course of weekend!
+  I'll still continue to fix aspects of it as long as i am using and will add more features
 
 # Installation
 ---------------
@@ -20,7 +21,7 @@
   public static $encoding = 'utf8';
 ```
 - dbuser should be the username and dbpass should be the password of your SQL DB
-- also import database with phpmyadmim that i already includes in project.
+- also import database with phpmyadmim that i have included in project.
 - website is ready just enter the url in browser like http://localhost/kbh-kbc/
 - add or remove questions as you need!
    improve it if you get some feature missing and also contribute to this project!
@@ -39,6 +40,11 @@
 - and second url is for add the next question by adding id in text box.
 
 - project architecture is simple but you need to spend some time to understand whole project!
+
+# How to add questions!!
+---------------
+- use add quiz to add custom questions and each question will have a unique ID.
+- You can also add questions into DB directly using phpMyAdmin.
 
 # Contribution
 ----------------
