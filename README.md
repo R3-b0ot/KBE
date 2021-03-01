@@ -34,8 +34,8 @@
 # How to use!!
 ---------------
 - there is two main url as following.
-  - http://localhost/kbh-kbc/
-  - http://localhost/kbh-kbc/next_que.php
+  - http://localhost/kbe/
+  - http://localhost/kbe/next_que.php
 - first url is home screen that what user can see.
 - and second url is for add the next question by adding id in text box.
 
