@@ -26,8 +26,11 @@
 
 		$(document).ready(function() {
       var limit=60;
-      if(quel>5){
+      if(quel>4 && quel<10){
         limit=120;
+      }
+      else if(quel>10){
+        limit=150
       }
 			clock = $('.clock').FlipClock(limit, {
 		        clockFace: 'MinuteCounter',
@@ -73,13 +76,13 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Kaun Banega Crorepati</a>
+          <a class="navbar-brand" href="#">Kaun Banega Entrepreneur</a>
         </div>
        <div class="navbar-collapse collapse">
           <ul class="nav navbar-nav">
             <li><a href="index.php">Home</a></li>
             <li><a href="add_quiz.php">Add Quiz</a></li>
-            <li><a href="next_que.php">next question</a></li>
+            <li><a href="next_que.php">Next Question</a></li>
           </ul>
         </div>
       </div>

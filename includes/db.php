@@ -23,7 +23,7 @@ class DB {
   // initial connection
   public static $dbName = 'KBH';
   public static $user = 'root';
-  public static $password = '1205';
+  public static $password = '222105';
   public static $host = 'localhost';
   public static $port = 3306;
   public static $encoding = 'utf8';

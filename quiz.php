@@ -15,7 +15,6 @@ list($id,$question,$opt1,$opt2,$opt3,$opt4,$ans) = DB::queryFirstList("SELECT * 
   var no="<?php echo "#".$no;?>";
   var quel="<?php echo $no;?>";
   var anstag="#"+ans;
-
   $(document).ready(function() {
     $(no).addClass("pricetag");
   });
@@ -28,7 +27,7 @@ list($id,$question,$opt1,$opt2,$opt3,$opt4,$ans) = DB::queryFirstList("SELECT * 
     <button id="effect" class='btn'>Show Option</button>
 	<button id="pause" class='btn'>Pause</button>
 	<button id="resume" class='btn'>Resume</button>
-  </div>
+</div>
  <div class="col-md-4" style="padding-top:350px">
    <div class="clock" style="margin:2em;"></div>
 </div>
@@ -94,7 +93,11 @@ list($id,$question,$opt1,$opt2,$opt3,$opt4,$ans) = DB::queryFirstList("SELECT * 
       <div id="D"class="col-md-4 col-md-offset-4 optw text-center"><p class="pans">D. <?php echo $opt4;?></p></div>
     </div>
   </div>
+  <hr>
+ 	  <p class="text-muted">&copy KBE KAUN BANEGA ENTREPRENEUR</p>
 </div>
-</div>
+  </body>
+</html>
+
 </body>
 </html>

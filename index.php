@@ -10,7 +10,6 @@ require_once('includes/functions_list.php');
 require_once('quiz.php');
 
 
-
 ?>
 
 
