@@ -17,33 +17,29 @@ public static $host = 'localhost';
 public static $port = 3306;
 public static $encoding = 'utf8';   
 ```
-- dbuser should be the username and dbpass should be the password of your SQL DB
-- also import database with phpmyadmim that i have included in project.
-- website is ready just enter the url in browser like http://localhost/kbh-kbc/
-- add or remove questions as you need!
-   improve it if you get some feature missing and also contribute to this project!
+- 4. **Import Database:** Import the provided database into your MySQL database using phpMyAdmin.
+5. **Access the Website:** Open your web browser and navigate to `http://localhost/kbh-kbc/`.
+6. **Add or Remove Questions:** Customize the question database as needed.
 
-# Setup Stage
------------
-- if you want kbc like screens than you can use tightvnc to copy screen locally but that needs two pc:computer: and powerful router.
-- you can also clone screens with using hdmi splitter but that is quite costly.
+### Setup Stage
 
-# How to use!!
----------------
-- there is two main url as following.
-  - http://localhost/kbe/
-  - http://localhost/kbe/next_que.php
-- first url is home screen that what user can see.
-- and second url is for add the next question by adding id in text box.
+For a more immersive KBC-like experience, consider using:
 
-- project architecture is simple but you need to spend some time to understand whole project!
+* **TightVNC:** For screen sharing and a remote presentation setup. Requires two PCs and a powerful router.
+* **HDMI Splitter:** For cloning screens to multiple displays. A more costly option.
 
-# How to add questions!!
----------------
-- use add quiz to add custom questions and each question will have a unique ID.
-- You can also add questions into DB directly using phpMyAdmin.
+### Usage
 
-# Contribution
-----------------
-- feel free to submit any kind of patch to this project.
-- minus point of this project is there is no perfect model of this project,you can improve it!
+* **Main URLs:**
+- `http://localhost/kbe/`: The main user interface.
+- `http://localhost/kbe/next_que.php`: For adding the next question by entering its ID.
+* **Project Architecture:** The project has a straightforward architecture, but it may require some time to fully understand.
+
+### Adding Questions
+
+* **Add Quiz:** Use the "Add Quiz" feature to create custom questions with unique IDs.
+* **Direct Database Entry:** Alternatively, add questions directly to the database using phpMyAdmin.
+
+### Contributions
+
+Feel free to contribute to this project by submitting patches or suggesting improvements. This project is open to enhancements, as there's always room for optimization and additional features.
