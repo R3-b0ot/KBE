@@ -1,24 +1,21 @@
-# KBE
+# KBE: Kaun Banega Entrepreneur
 
 # Introduction
 ---------------
-- i made this for my Rotaract event Kaun Banega Entrepreneur KBE for model !
-  Initially it seemed totally impossible to make this kind of system !
-  that can create env like real kbc show but i tried and made this software over a course of weekend!
-  I'll still continue to fix aspects of it as long as i am using and will add more features
+- This project, created for a Rotaract event, aims to simulate a real-life KBC (Kaun Banega Crorepati) show. It was initially a daunting task, but through perseverance and weekend-long efforts, I've developed this functional software. I'll continue to refine and expand its features as I use it.
 
 # Installation
 ---------------
-- first step you need bitnami wamp stack installed on your pc.
-- after that copy directory in apache2\htdocs\ .
-- change the intial connnection block in includes/db.php
+- Install Bitnami WAMP Stack: Ensure Bitnami WAMP Stack is installed on your PC.
+Copy Project Directory: Place the project directory within the Apache2\htdocs\ folder.
+Configure Database Connection: Modify the database connection details in includes/db.php. Replace the placeholders with your actual database credentials:
 ```php
-  public static $dbName = 'KBH';
-  public static $user = 'dbuser';
-  public static $password = 'dbpass';
-  public static $host = 'localhost';
-  public static $port = 3306;
-  public static $encoding = 'utf8';
+    public static $dbName = 'KBH';
+public static $user = 'dbuser';
+public static $password = 'dbpass';
+public static $host = 'localhost';
+public static $port = 3306;
+public static $encoding = 'utf8';   
 ```
 - dbuser should be the username and dbpass should be the password of your SQL DB
 - also import database with phpmyadmim that i have included in project.
